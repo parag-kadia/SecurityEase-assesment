@@ -30,3 +30,5 @@ npm install
 **Run tests**
 npm test run
 
+**Test Results** and **Issue**
+1st scenario : George Russell finished in 2nd place is not true. cause in the website George Russell is not 2nd.
