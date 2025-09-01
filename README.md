@@ -1,4 +1,4 @@
-# SecurityEase-assesment 
+# SecurityEase-assesment Front-End
 This project uses Playwright with TypeScript and Cucumber (BDD) to perfom automated testing on the BBC Sport website.
 
 **Project Metrics & Approach**
