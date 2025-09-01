@@ -20,7 +20,8 @@ Cucumber
 npm
 
 **Clone the project:**
-git clone https://github.com/parag-kadia/SecuritEase-assesment
+git clone https://github.com/parag-kadia/SecurityEase-assesment-Front-end
+
 cd SecuritEase-assesment
 
 **Install dependecies:**
