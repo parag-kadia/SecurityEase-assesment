@@ -1,0 +1,10 @@
+{
+  "default": {
+    "paths": ["features-file/**/*.feature"],
+    "require": ["step-definitions/**/*.ts"],
+    "requireModule": ["ts-node/register"],
+    "formatOptions": {"snippetInterface": "async-await"},
+    "format": ["summary", "html:report/cucumber-report.html"],
+    "worldParameters": {"timeOut": 15000}
+  }
+}

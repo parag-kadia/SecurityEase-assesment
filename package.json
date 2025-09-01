@@ -1,0 +1,33 @@
+{
+  "name": "securityease-assesment",
+  "version": "1.0.0",
+  "description": "This project uses Playwright with TypeScript and Cucumber (BDD) to perfom automated testing on the BBC Sport website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "build": "tsc",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parag-kadia/SecurityEase-assesment.git"
+  },
+  "keywords": [],
+  "author": "Parag Kadia",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/parag-kadia/SecurityEase-assesment/issues"
+  },
+  "homepage": "https://github.com/parag-kadia/SecurityEase-assesment#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^12.2.0"
+  }
+}

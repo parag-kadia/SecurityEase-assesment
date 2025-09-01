@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                          // Output code in ES6 (modern browsers)
+      "module": "CommonJS",                      // Use CommonJS module system (Node.js)
+      "moduleResolution": "node",                // Resolve modules like Node.js
+      "esModuleInterop": true,                   // Allow default imports from modules without default exports
+      "strict": true,                            // Enable strict type-checking options
+      "skipLibCheck": true,                      // Skip type checking of declaration files (faster builds)
+      "forceConsistentCasingInFileNames": true,
+      "sourceMap": true,                         // Generate source maps for debugging
+      "baseUrl": ".",                            // Base directory for resolving non-relative module imports
+      "paths": {                                 // Alias for import paths
+        "@pages/*": ["pages/*"],
+        "@tests/*": ["tests/*"]
+      }
+    },
+    // "include": [
+    //   "src/**/*.ts",
+    //    "tests/**/*.ts",                          // Include test files
+    //    "pages/**/*.ts",                           // Include page object files
+    //    "setup/login.setup.ts"],
+
+    "exclude": [
+      "node_modules",                           // Exclude node_modules
+      "dist"                                    // Exclude dist folder if using build output
+    ]
+  }
+  
